@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Red & White - Registration Form</title>
+  </head>
+  <body>
+    <table border="1" width="60%" align="center" cellpadding="10">
+      <tr bgcolor="#f44336">
+        <th colspan="2" style="color: white">
+          <h1>Red & White Student Registration Form</h1>
+        </th>
+      </tr>
+      <form>
+        <tr>
+          <td>Full Name:</td>
+          <td><input type="text" name="name" required /></td>
+        </tr>
+        <tr>
+          <td>Email ID:</td>
+          <td><input type="email" name="email" required /></td>
+        </tr>
+        <tr>
+          <td>Password:</td>
+          <td><input type="password" name="password" required /></td>
+        </tr>
+        <tr>
+          <td>Gender:</td>
+          <td>
+            <input type="radio" name="gender" value="male" /> Male
+            <input type="radio" name="gender" value="female" /> Female
+            <input type="radio" name="gender" value="other" /> Other
+          </td>
+        </tr>
+        <tr>
+          <td>Courses Interested In:</td>
+          <td>
+            <input type="checkbox" name="course" value="fullstack" /> Full Stack
+            Development<br />
+            <input type="checkbox" name="course" value="uiux" /> UI/UX Design<br />
+            <input type="checkbox" name="course" value="python" /> Python
+            Programming
+          </td>
+        </tr>
+        <tr>
+          <td>Upload Your Photo:</td>
+          <td><input type="file" name="photo" /></td>
+        </tr>
+        <tr>
+          <td>City:</td>
+          <td>
+            <select name="city">
+              <option value="">-- Select City --</option>
+              <option value="surat">Surat</option>
+              <option value="rajkot">Rajkot</option>
+              <option value="ahmedabad">Ahmedabad</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <input type="submit" value="Submit Form" />
+            <input type="reset" value="Reset Form" />
+          </td>
+        </tr>
+      </form>
+      <tr bgcolor="#f44336">
+        <td colspan="2" align="center">
+          <p style="color: white">
+            &copy; 2025 Red & White Multimedia Education
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
