@@ -1,0 +1,43 @@
+header > h1:last-child {
+  background-color: #670d2f;
+}
+
+header > h1:nth-child(8) {
+  background-color: #393e46;
+}
+header > div > h1:nth-of-type(2) {
+  background-color: #f14a00;
+}
+
+header > h1:nth-child(11) {
+  background-color: #845ec2;
+}
+
+div > section > div > h1:nth-of-type(2) {
+  background-color: #005b44;
+}
+
+header > p:nth-of-type(3) {
+  background-color: #94b4c1;
+}
+
+header > section > div > h1:nth-of-type(5) {
+  background-color: #644a07;
+}
+
+header > h1:nth-child(17) {
+  background-color: #81e7af;
+}
+
+header > p:nth-child(20) {
+  background-color: rgb(121, 145, 56);
+}
+span h1:nth-of-type(2) {
+  background-color: #5f477e;
+}
+header > div > section > div > h1:nth-of-type(1) {
+  background-color: rgb(45, 58, 30);
+}
+div + h1 {
+  background-color: #d50b8b;
+}

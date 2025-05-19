@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("../asset/img/Goku.jpeg"); /* Task 2 */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task {
+  margin-bottom: 20px;
+  padding: 20px;
+  color: white;
+}
+
+/* Task 1: Solid Background Color */
+.solid-bg {
+  background-color: orange;
+}
+
+/* Task 3: Multiple Background Images */
+.multi-bg {
+  background-image: url("../asset/img/prt1.jpeg"), url("../asset/img/prt2.jpeg");
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+
+/* Task 4: Background Repeat & No-Repeat */
+.repeat-img {
+  background-image: url("../asset/img/tile.jpeg");
+  background-repeat: repeat;
+}
+
+.no-repeat-img {
+  background-image: url("../asset/img/hnumn.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Task 5: Background Position */
+.bg-position {
+  background-image: url("../asset/img/premnd.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Task 6: Background Attachment */
+.scroll-bg {
+  background-image: url("../asset/img/scroll.jpeg");
+  background-attachment: scroll;
+}
+
+.fixed-bg {
+  background-image: url("../asset/img/scrol2.jpeg");
+  background-attachment: fixed;
+}
+
+.local-bg {
+  background-image: url("../asset/img/local.jpeg");
+  background-attachment: local;
+  overflow: auto;
+  height: 150px;
+}
+
+/* Task 8: Responsive Background */
+.responsive-bg {
+  background-image: url("../asset/img/hero.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+/* Task 9: Hover Effect */
+.hover-bg {
+  background-color: #ff1e00;
+  transition: background 0.3s ease;
+}
+
+.hover-bg:hover {
+  background-color: #000000;
+}
+
+/* Task 10: Watermark Effect */
+.watermark-bg {
+  background-image: url("../asset/img/jp.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.5;
+}
+
+.task-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
