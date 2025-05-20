@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Practice Tasks</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>Flexbox Practice Tasks</h1>
+
+    <div class="task-section">
+      <h2>1. Flex-Grow Practice</h2>
+
+      <h3>1.1 Basic Growth Test</h3>
+      <div class="flex-container">
+        <div class="flex-item" style="flex-grow: 1">Item 1</div>
+        <div class="flex-item" style="flex-grow: 2">Item 2</div>
+        <div class="flex-item" style="flex-grow: 1">Item 3</div>
+      </div>
+
+      <h3>1.2 Only One Grows</h3>
+      <div class="flex-container">
+        <div class="flex-item" style="flex-grow: 1">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
+      </div>
+
+      <h3>1.3 All Items Grow Equally</h3>
+      <div class="flex-container">
+        <div class="flex-item" style="flex-grow: 1">Item 1</div>
+        <div class="flex-item" style="flex-grow: 1">Item 2</div>
+        <div class="flex-item" style="flex-grow: 1">Item 3</div>
+      </div>
+    </div>
+
+    <div class="task-section">
+      <h2>2. Flex-Shrink Practice</h2>
+
+      <h3>2.1 Basic Shrink Test</h3>
+      <div class="flex-container" style="width: 500px">
+        <div class="flex-item" style="flex-shrink: 1; width: 300px">
+          Shrink 1
+        </div>
+        <div class="flex-item" style="flex-shrink: 2; width: 300px">
+          Shrink 2
+        </div>
+        <div class="flex-item" style="flex-shrink: 0; width: 300px">
+          No Shrink
+        </div>
+      </div>
+
+      <h3>2.2 Disable Shrinking</h3>
+      <div class="flex-container" style="width: 500px">
+        <div class="flex-item" style="flex-shrink: 0; width: 300px">
+          No Shrink
+        </div>
+        <div class="flex-item" style="flex-shrink: 1; width: 300px">
+          Shrink 1
+        </div>
+        <div class="flex-item" style="flex-shrink: 1; width: 300px">
+          Shrink 1
+        </div>
+      </div>
+
+      <h3>2.3 Equal Shrinking</h3>
+      <div class="flex-container" style="width: 500px">
+        <div class="flex-item" style="flex-shrink: 1; width: 300px">
+          Shrink 1
+        </div>
+        <div class="flex-item" style="flex-shrink: 1; width: 300px">
+          Shrink 1
+        </div>
+        <div class="flex-item" style="flex-shrink: 1; width: 300px">
+          Shrink 1
+        </div>
+      </div>
+    </div>
+
+    <div class="task-section">
+      <h2>3. Flex-Basis Practice</h2>
+
+      <h3>3.1 Different Basis Sizes</h3>
+      <div class="flex-container">
+        <div class="flex-item" style="flex-basis: 100px">100px</div>
+        <div class="flex-item" style="flex-basis: 200px">200px</div>
+        <div class="flex-item" style="flex-basis: 300px">300px</div>
+      </div>
+
+      <h3>3.2 Flex-Basis vs Width</h3>
+      <div class="flex-container">
+        <div class="flex-item" style="width: 200px; flex-basis: 300px">
+          Flex-Basis 300px overrides Width 200px
+        </div>
+      </div>
+
+      <h3>3.3 Auto vs Zero Basis</h3>
+      <div class="flex-container">
+        <div class="flex-item" style="flex-basis: auto">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod,
+          cupiditate provident. Optio amet dolores praesentium facere, atque
+          voluptates fugit, ullam cupiditate ducimus itaque necessitatibus porro
+          ratione fuga sunt fugiat quo.
+        </div>
+        <div class="flex-item" style="flex-basis: 0">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+          ipsam ea nobis reprehenderit deleniti illum molestias atque vel dolor
+          ipsa!
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
