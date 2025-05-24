@@ -1,0 +1,7 @@
+{
+    "autoCommitMessage.enabled": true,
+    "autoCommitMessage.message": "Auto commit from VS Code",
+    "autoCommitMessage.autoAdd": true,
+    "autoCommitMessage.autoCommit": true,
+    "autoCommitMessage.autoPush": true
+  }
