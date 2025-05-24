@@ -1,0 +1,145 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Task 1 */
+.linear-gradient-box {
+  background: linear-gradient(to right, blue, pink);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Task 2 */
+.radial-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: radial-gradient(yellow, red);
+  margin: 20px auto;
+}
+
+/* Task 3 */
+.multi-color-gradient {
+  background: linear-gradient(to bottom, green, yellow, red);
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+}
+
+/* Task 4 */
+.fixed-box {
+  width: 300px;
+  height: 200px;
+  border: 2px solid #222;
+  background-color: #fafafa;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Task 5 */
+.responsive-container {
+  width: 100%;
+  background-color: #e0f7fa;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.responsive-child {
+  width: 50%;
+  background-color: #4dd0e1;
+  padding: 12px 0;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  border-radius: 6px;
+}
+
+/* Task 6 */
+.responsive-text {
+  max-width: 600px;
+  width: 100%;
+  margin: 20px auto;
+  background: #fff8e1;
+  padding: 20px;
+  border-left: 6px solid #ffb300;
+  border-radius: 4px;
+}
+
+/* Task 7 */
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Task 8 */
+footer {
+  background: #121212;
+  color: #ccc;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  margin-top: auto;
+  border-top: 2px solid #444;
+}
+
+/* Task 9 */
+.form-section {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+input[type="text"] {
+  min-width: 250px;
+  padding: 10px;
+  border: 1.5px solid #bbb;
+  border-radius: 5px;
+  font-size: 14px;
+}
+button {
+  padding: 10px 20px;
+  background: #ff8a00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Task 10 */
+.float-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 30px;
+}
+.float-left,
+.float-right {
+  padding: 15px;
+  font-weight: bold;
+  color: white;
+  border-radius: 6px;
+}
+.float-left {
+  width: 40%;
+  background-color: #66bb6a;
+}
+.float-right {
+  width: 50%;
+  background-color: #ef5350;
+}
