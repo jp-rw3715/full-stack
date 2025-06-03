@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-.Ballitar-fonts {
-  font-family: "Ballitar City";
+.fonts-3 {
+  font-family: "Belgiano serif";
 }
 
 /* fonts */
@@ -21,6 +21,14 @@
 @font-face {
   font-family: "Ballitar City";
   src: url("../assets/fonts1/BallitarCity.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Belgiano Serif";
+  src: url("BelgianoSerif-Regular.woff2") format("woff2"),
+    url("BelgianoSerif-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -276,7 +284,7 @@ a {
 /* hero 1 css end */
 /* service-section css */
 .services-section {
-  background: #fff;
+  background: #fefefe;
   padding: 4.5rem 0;
   position: relative;
   overflow: hidden;
@@ -1302,7 +1310,7 @@ h2.subtitle {
   transition: color var(--transition);
 }
 .pricing-switcher-label.active {
-  color: var(--yellow);
+  color: var(--btncolor);
 }
 .pricing-switcher {
   width: 46px;
@@ -1317,7 +1325,7 @@ h2.subtitle {
 }
 .pricing-switcher.active {
   background: #ffe6c1;
-  border: 2px solid var(--yellow);
+  border: 2px solid var(--btncolor);
 }
 .pricing-switcher-btn {
   width: 22px;
@@ -1346,7 +1354,7 @@ h2.subtitle {
   border-radius: 0.7rem;
   box-shadow: 0 0 1.25rem #1e22280a;
   padding: 2.2rem 24px 2.5rem 24px;
-  color: var(--dark);
+  color: var(--primary);
   flex: 0 1 320px;
   max-width: 340px;
   min-width: 0;
@@ -1360,7 +1368,7 @@ h2.subtitle {
   box-shadow: var(--shadow);
   transform: translateY(-0.15rem) scale(1.03);
   z-index: 2;
-  border-color: var(--yellow);
+  border-color: var(--btncolor);
 }
 .pricing-price {
   font-size: 2.2rem;
@@ -1402,7 +1410,7 @@ h2.subtitle {
   content: "✔";
   position: absolute;
   left: 0;
-  color: var(--yellow);
+  color: var(--btncolor);
   font-weight: bold;
 }
 .pricing-features li:last-child:before {
@@ -1411,7 +1419,7 @@ h2.subtitle {
 }
 .pricing-btn {
   display: inline-block;
-  background: var(--yellow);
+  background: var(--btncolor);
   color: #fff;
   border-radius: 50rem;
   padding: 0.6rem 1.7rem;
@@ -1419,7 +1427,7 @@ h2.subtitle {
   font-weight: bold;
   text-decoration: none;
   margin-top: 1rem;
-  border: 2px solid var(--yellow);
+  border: 2px solid var(--btncolor);
   transition: box-shadow var(--transition), transform var(--transition),
     background var(--transition), color var(--transition);
   letter-spacing: 0.02em;
@@ -1433,7 +1441,7 @@ h2.subtitle {
 }
 .pricing-title {
   font-size: 0.8rem;
-  color: var(--gray);
+  color: var(--secondary);
   text-transform: uppercase;
   letter-spacing: 0.02rem;
   margin-bottom: 1rem;
@@ -1442,17 +1450,18 @@ h2.subtitle {
 .pricing-heading {
   font-size: calc(1.315rem + 0.78vw);
   font-weight: bold;
-  color: var(--dark);
+  color: var(--primary);
   margin-bottom: 1rem;
   line-height: 1.25;
 }
 .pricing-desc {
   margin-bottom: 1.5rem;
   font-size: 1rem;
+  color: var(--secondary);
 }
 .pricing-desc a {
-  color: var(--yellow);
-  text-decoration: underline;
+  color: var(--btncolor);
+  text-decoration: none;
   font-weight: 500;
 }
 /* Responsive: Tablet & Mobile */
@@ -1541,7 +1550,7 @@ h2.subtitle {
 }
 .cta-title {
   font-size: 0.8rem;
-  color: var(--gray);
+  color: var(--secondary);
   text-transform: uppercase;
   letter-spacing: 0.02rem;
   margin-bottom: 1rem;
@@ -1550,19 +1559,20 @@ h2.subtitle {
 .cta-heading {
   font-size: calc(1.215rem + 0.78vw);
   font-weight: bold;
-  color: var(--dark);
+  color: var(--primary);
   max-width: 500px;
   width: 496px;
   margin-bottom: 1rem;
   line-height: 1.25;
 }
 .talk-p {
+  color: var(--thirdary);
   max-width: 500px;
   width: 495px;
 }
 .cta-btn {
   display: inline-block;
-  background: var(--yellow);
+  background: var(--btncolor);
   color: #fff;
   border-radius: 50rem;
   padding: 0.5rem 1.5rem;
@@ -1679,7 +1689,7 @@ h2.subtitle {
 }
 
 .footer-cta {
-  background-color: #fdbb42;
+  background-color: var(--btncolor);
   color: white;
   padding: 14px 26px;
   font-weight: 600;
