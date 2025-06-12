@@ -1,0 +1,38 @@
+.semicircle-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.semicircle {
+  position: absolute;
+  border-radius: 50%;
+  border: 8px solid transparent;
+}
+
+/* Outer red semicircle */
+.outer-semicircle {
+  background-color: tomato;
+  width: 200px;
+  height: 200px;
+  border-top: 8px solid #dc3545;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid #dc3545;
+  transform: rotate(-45deg);
+}
+
+/* Inner green semicircle */
+.inner-semicircle {
+  background-color: thistle;
+  width: 120px;
+  height: 120px;
+  border-top: 6px solid #28a745;
+  border-right: 6px solid #28a745;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid transparent;
+  transform: rotate(45deg);
+}
